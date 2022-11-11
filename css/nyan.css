@@ -104,7 +104,7 @@ body {
   width: 109px;
   height: 92px;
   background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat;
-  background-color: #fc9;
+  background-color: #ffffff;
   background-size: 6px 6px;
   background-position: 0 0, 103px 0, 0 86px, 103px 86px;
 }
@@ -114,8 +114,8 @@ body {
   height: 80px;
   top: 6px;
   left: 0;
-  background: linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat, linear-gradient(#f39, #f39) no-repeat;
-  background-color: #f9f;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
+  background-color: #ffffff;
   background-size: 6px 6px;
   background-position: 12px 12px, 40px 6px, 58px 6px, 35px 29px, 80px 18px, 18px 40px, 40px 46px, 6px 52px, 29px 63px;
 }
@@ -126,7 +126,7 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-  background: linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat, linear-gradient(#fc9, #fc9) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 6px, 12px 6px, 12px 6px, 12px 6px, 6px 12px, 6px 12px, 6px 12px, 6px 12px;
   background-position: 0 0, 85px 0, 0 74px, 85px 74px, 0 0, 91px 0, 0 68px, 91px 68px;
 }
@@ -349,28 +349,28 @@ body {
 }
 /* red */
 .hot {
-  background-image: linear-gradient(to right, #f00 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #D90012 49px, transparent 49px, transparent 92px);
 }
 /* orange */
 .hot:after {
-  background-image: linear-gradient(to right, #f90 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #D90012 49px, transparent 49px, transparent 92px);
 }
 /* yellow */
 .hot:before {
-  background-image: linear-gradient(to right, #ff0 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #0033A0 49px, transparent 49px, transparent 92px);
 }
 /* green */
 .cold:after {
-  background-image: linear-gradient(to right, #3f0 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #0033A0 49px, transparent 49px, transparent 92px);
   background-position: left top;
 }
 /* blue */
 .cold:before {
-  background-image: linear-gradient(to right, #09f 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #F2A800 49px, transparent 49px, transparent 92px);
 }
 /* purple */
 .cold {
-  background-image: linear-gradient(to right, #63f 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #F2A800 49px, transparent 49px, transparent 92px);
 }
 .rainbow,
 .hot:after,
@@ -418,7 +418,7 @@ body {
   height: 30px;
   border: solid black;
   border-width: 0 6px;
-  background: #999;
+  background: #ffffff;
   position: absolute;
 }
 /* #head:before = left ear | #head:after = right ear */
@@ -427,7 +427,7 @@ body {
   width: 40px;
   height: 30px;
   top: -30px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 6px 24px, 12px 6px, 12px 6px, 6px 6px, 6px 6px, 12px 30px, 12px 12px, 12px 6px, 6px 6px;
   background-position: 0 6px, 6px 0, 30px 18px, 18px 6px, 24px 12px, 6px 6px, 18px 18px, 30px 24px, 18px 12px;
 }
@@ -441,7 +441,7 @@ body {
   height: 100%;
   position: absolute;
   top: 6px;
-  background: linear-gradient(white, white) no-repeat, linear-gradient(white, white) no-repeat, linear-gradient(#f99, #f99) no-repeat, linear-gradient(#f99, #f99) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat;
+  background: linear-gradient(#ffd800, #ffd800) no-repeat, linear-gradient(#ffd800, #ffd800) no-repeat, linear-gradient(#f99, #f99) no-repeat, linear-gradient(#f99, #f99) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat;
   background-size: 6px 6px, 6px 6px, 12px 12px, 12px 12px, 12px 12px, 12px 12px, 6px 6px, 6px 6px, 6px 6px, 6px 6px;
   background-position: 17px 0, 56px 0, 5px 12px, 68px 12px, 17px 0, 56px 0, 42px 6px, 23px 18px, 40px 18px, 56px 18px;
 }
@@ -450,7 +450,7 @@ body {
   bottom: -12px;
   width: 100%;
   height: 18px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 6px 6px, 6px 6px, 6px 6px, 6px 6px, 56px 6px, 39px 6px, 68px 6px, 56px 6px;
   background-position: 0 0, 6px 6px, 74px 0, 68px 6px, 12px 12px, 23px 0, 6px 0, 12px 6px;
 }
@@ -489,7 +489,7 @@ body {
 .frame1 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 12px, 12px 12px, 12px 12px, 12px 12px, 6px 6px;
   background-position: 10px 6px, 40px 6px, 101px 6px, 131px 6px, 22px 6px;
 }
@@ -504,7 +504,7 @@ body {
 .frame4 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 12px;
   background-position: 16px 6px, 46px 6px, 101px 6px, 131px 6px;
 }
@@ -517,7 +517,7 @@ body {
 .frame3 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 12px;
   background-position: 22px 6px, 52px 6px, 106px 6px, 137px 6px;
 }
@@ -532,7 +532,7 @@ body {
 .frame6 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 12px;
   background-position: 10px 6px, 16px 0, 40px 6px, 101px 6px, 131px 6px;
 }
@@ -559,7 +559,7 @@ body {
   top: 6px;
   width: 29px;
   height: 23px;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 11px 6px;
   background-position: 0 0, 6px 6px, 12px 12px, 18px 18px, 24px 24px;
 }
@@ -576,7 +576,7 @@ body {
   height: 23px;
   left: 12px;
   top: 12px;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 11px 6px;
   background-position: 0 0, 0 5px, 6px 11px, 17px 11px, 17px 17px;
 }
@@ -591,7 +591,7 @@ body {
   height: 12px;
   top: 30px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 24px 6px, 18px 6px;
   background-position: 6px 0, 0 6px;
 }
@@ -606,7 +606,7 @@ body {
   height: 24px;
   top: 24px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 12px 12px, 12px 12px, 12px 6px;
   background-position: 18px 0, 0 12px, 6px 6px;
 }
@@ -621,7 +621,7 @@ body {
   height: 18px;
   top: 12px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat, linear-gradient(#ffffff, #ffffff) no-repeat;
   background-size: 18px 6px, 22px 6px, 6px 6px;
   background-position: 0 0, 6px 6px, 28px 12px;
 }
