@@ -104,7 +104,7 @@ body {
   width: 109px;
   height: 92px;
   background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat;
-  background-color: #D4941A;
+  background-color: #00AFCA;
   background-size: 6px 6px;
   background-position: 0 0, 103px 0, 0 86px, 103px 86px;
 }
@@ -114,10 +114,10 @@ body {
   height: 80px;
   top: 6px;
   left: 0;
-  background: linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat, linear-gradient(#FFF8DC, #FFF8DC) no-repeat;
-  background-color: #F0A500;
-  background-size: 6px 6px;
-  background-position: 12px 12px, 40px 6px, 58px 6px, 35px 29px, 80px 18px, 18px 40px, 40px 46px, 6px 52px, 29px 63px;
+  background: linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat, linear-gradient(#FEC400, #FEC400) no-repeat;
+  background-color: #00AFCA;
+  background-size: 12px 12px, 6px 6px, 6px 6px, 6px 6px, 6px 6px, 6px 6px, 6px 6px, 6px 6px, 6px 6px, 6px 6px;
+  background-position: 40px 34px, 44px 22px, 44px 52px, 28px 38px, 60px 38px, 32px 26px, 56px 26px, 32px 50px, 56px 50px, 44px 38px;
 }
 #pop-tarts-body-cream:before {
   content: '';
@@ -126,7 +126,7 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-  background: linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat, linear-gradient(#D4941A, #D4941A) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 6px, 12px 6px, 12px 6px, 12px 6px, 6px 12px, 6px 12px, 6px 12px, 6px 12px;
   background-position: 0 0, 85px 0, 0 74px, 85px 74px, 0 0, 91px 0, 0 68px, 91px 68px;
 }
@@ -347,30 +347,30 @@ body {
   margin-top: -60px;
   animation: wavy 700ms 350ms steps(2) infinite both;
 }
-/* Serbian flag: red */
+/* Kazakhstan: gold */
 .hot {
-  background-image: linear-gradient(to right, #C6363C 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #FEC400 49px, transparent 49px, transparent 92px);
 }
-/* Serbian flag: red */
+/* Kazakhstan: blue */
 .hot:after {
-  background-image: linear-gradient(to right, #C6363C 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #00AFCA 49px, transparent 49px, transparent 92px);
 }
-/* Serbian flag: blue */
+/* Kazakhstan: blue */
 .hot:before {
-  background-image: linear-gradient(to right, #0C4076 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #00AFCA 49px, transparent 49px, transparent 92px);
 }
-/* Serbian flag: blue */
+/* Kazakhstan: blue */
 .cold:after {
-  background-image: linear-gradient(to right, #0C4076 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #00AFCA 49px, transparent 49px, transparent 92px);
   background-position: left top;
 }
-/* Serbian flag: white */
+/* Kazakhstan: blue */
 .cold:before {
-  background-image: linear-gradient(to right, #FFFFFF 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #00AFCA 49px, transparent 49px, transparent 92px);
 }
-/* Serbian flag: white */
+/* Kazakhstan: gold */
 .cold {
-  background-image: linear-gradient(to right, #FFFFFF 49px, transparent 49px, transparent 92px);
+  background-image: linear-gradient(to right, #FEC400 49px, transparent 49px, transparent 92px);
 }
 .rainbow,
 .hot:after,
@@ -418,7 +418,7 @@ body {
   height: 30px;
   border: solid black;
   border-width: 0 6px;
-  background: #999;
+  background: #00AFCA;
   position: absolute;
 }
 /* #head:before = left ear | #head:after = right ear */
@@ -427,7 +427,7 @@ body {
   width: 40px;
   height: 30px;
   top: -30px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 6px 24px, 12px 6px, 12px 6px, 6px 6px, 6px 6px, 12px 30px, 12px 12px, 12px 6px, 6px 6px;
   background-position: 0 6px, 6px 0, 30px 18px, 18px 6px, 24px 12px, 6px 6px, 18px 18px, 30px 24px, 18px 12px;
 }
@@ -450,7 +450,7 @@ body {
   bottom: -12px;
   width: 100%;
   height: 18px;
-  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(black, black) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 6px 6px, 6px 6px, 6px 6px, 6px 6px, 56px 6px, 39px 6px, 68px 6px, 56px 6px;
   background-position: 0 0, 6px 6px, 74px 0, 68px 6px, 12px 12px, 23px 0, 6px 0, 12px 6px;
 }
@@ -489,7 +489,7 @@ body {
 .frame1 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 12px, 12px 12px, 12px 12px, 12px 12px, 6px 6px;
   background-position: 10px 6px, 40px 6px, 101px 6px, 131px 6px, 22px 6px;
 }
@@ -504,7 +504,7 @@ body {
 .frame4 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 12px;
   background-position: 16px 6px, 46px 6px, 101px 6px, 131px 6px;
 }
@@ -517,7 +517,7 @@ body {
 .frame3 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 12px;
   background-position: 22px 6px, 52px 6px, 106px 6px, 137px 6px;
 }
@@ -532,7 +532,7 @@ body {
 .frame6 #paws:before {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 12px;
   background-position: 10px 6px, 16px 0, 40px 6px, 101px 6px, 131px 6px;
 }
@@ -559,7 +559,7 @@ body {
   top: 6px;
   width: 29px;
   height: 23px;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 11px 6px;
   background-position: 0 0, 6px 6px, 12px 12px, 18px 18px, 24px 24px;
 }
@@ -576,7 +576,7 @@ body {
   height: 23px;
   left: 12px;
   top: 12px;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 11px 6px;
   background-position: 0 0, 0 5px, 6px 11px, 17px 11px, 17px 17px;
 }
@@ -591,7 +591,7 @@ body {
   height: 12px;
   top: 30px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 24px 6px, 18px 6px;
   background-position: 6px 0, 0 6px;
 }
@@ -606,7 +606,7 @@ body {
   height: 24px;
   top: 24px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 12px 12px, 12px 12px, 12px 6px;
   background-position: 18px 0, 0 12px, 6px 6px;
 }
@@ -621,7 +621,7 @@ body {
   height: 18px;
   top: 12px;
   right: 0;
-  background: linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat, linear-gradient(#999, #999) no-repeat;
+  background: linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat, linear-gradient(#00AFCA, #00AFCA) no-repeat;
   background-size: 18px 6px, 22px 6px, 6px 6px;
   background-position: 0 0, 6px 6px, 28px 12px;
 }
