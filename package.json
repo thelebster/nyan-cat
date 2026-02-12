@@ -4,7 +4,10 @@
   "description": "Nyan!",
   "main": "index.html",
   "scripts": {
-    "less": "lessc less/nyan.less css/nyan.css"
+    "less": "lessc less/nyan.less css/nyan.css",
+    "docker:install": "docker compose run --rm npm install",
+    "docker:less": "docker compose run --rm npm run less",
+    "docker:serve": "docker compose up serve"
   },
   "repository": {
     "type": "git",
