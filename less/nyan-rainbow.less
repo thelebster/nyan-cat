@@ -1,3 +1,16 @@
+:root {
+	--stripe-1: #f00;
+	--stripe-2: #f90;
+	--stripe-3: #ff0;
+	--stripe-4: #3f0;
+	--stripe-5: #09f;
+	--stripe-6: #63f;
+	--fur-color: #999;
+	--body-color: #fc9;
+	--body-cream: #f9f;
+	--body-sprinkle: #f39;
+}
+
 .rainbow {
 	background: none;
 	height: 102px;
@@ -35,61 +48,56 @@
 	animation: wavy 700ms 350ms steps(2) infinite both;
 }
 
-/* Kazakhstan: gold */
 .hot {
 	background-image: linear-gradient(
 		to right,
-		#FEC400 49px,
+		var(--stripe-1) 49px,
 		transparent 49px,
 		transparent 92px
 	);
 }
 
-/* Kazakhstan: blue */
 .hot:after {
 	background-image: linear-gradient(
 		to right,
-		#00AFCA 49px,
+		var(--stripe-2) 49px,
 		transparent 49px,
 		transparent 92px
 	);
 }
 
-/* Kazakhstan: blue */
 .hot:before {
 	background-image: linear-gradient(
 		to right,
-		#00AFCA 49px,
+		var(--stripe-3) 49px,
 		transparent 49px,
-		transparent 92px);
+		transparent 92px
+	);
 }
 
-/* Kazakhstan: blue */
 .cold:after {
 	background-image: linear-gradient(
 		to right,
-		#00AFCA 49px,
+		var(--stripe-4) 49px,
 		transparent 49px,
 		transparent 92px
 	);
 	background-position: left top;
 }
 
-/* Kazakhstan: blue */
 .cold:before {
 	background-image: linear-gradient(
 		to right,
-		#00AFCA 49px,
+		var(--stripe-5) 49px,
 		transparent 49px,
 		transparent 92px
 	);
 }
 
-/* Kazakhstan: gold */
 .cold {
 	background-image: linear-gradient(
 		to right,
-		#FEC400 49px,
+		var(--stripe-6) 49px,
 		transparent 49px,
 		transparent 92px
 	);
